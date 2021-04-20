@@ -11,11 +11,13 @@ Implementation of [**Integrated Clustering and Anomaly Detection (INCAD) for Str
 INCAD output for the synthetic data, SD. Instances belonging to the normal clusters are shown as □ and instancesbelonging to anomalous clusters are shown as ◦. The size of the anomalous instances indicates the probabilistic anomaly score. Inset: the average anomaly score for truly anomalous instances (TP) and false positives (FP).
 
 ## Identifying handwriting patterns and anomalies in MNIST Digits (10% sample data)
+#### Cluster centers identified by INCAD
+(Note that the number of clusters (18) is automatically inferred by the model)
 <img src="https://github.com/sreelekh/INCAD/blob/main/mnist_lowrez_avg.png" width="450">
-Cluster centers identified by INCAD. (Note that the number of clusters (18) is automatically inferred by the model)
 
+#### Anomalies identified by INCAD
 <img src="https://github.com/sreelekh/INCAD/blob/main/mnist_ana_lowrez_imshow20x20.png" width="450">
-Anomalies identified by INCAD.
+
 
 ## Anomaly Detection in Evolving Streams
 <img src="https://github.com/sreelekh/INCAD/blob/main/3_gasGas_sensor_batch9_dat_after_batch.png" width="200"> <img src="https://github.com/sreelekh/INCAD/blob/main/3_gasGas_sensor_batch9_dat_iter_125.png" width="200"> <img src="https://github.com/sreelekh/INCAD/blob/main/3_gasGas_sensor_batch9_dat_iter_217.png" width="200">
