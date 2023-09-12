@@ -1,0 +1,32 @@
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+quiet = true
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint]
+[tool.pylint.master]
+jobs = 0
+output-format = "colorized"
+suggestion-mode = true
+disable = [
+    "C0103", # invalid-name
+    "C0301", # line-too-long
+    "R0801", # duplicate-code
+    "W0702" # bare-except
+]
+
+[tool.pytest.ini_options]
+minversion = "7.1.1"
+addopts = "-p no:warnings -v --cov=lib --cov-report term --cov-report xml"
+testpaths = [
+    "tests"
+]
+
+[tool.ruff]
+line-length = 100
+ignore = [
+    "E722" # bare-except
+]

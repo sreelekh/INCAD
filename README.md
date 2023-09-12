@@ -1,6 +1,5 @@
 # Anomaly Detection in Evolving Streams using INCAD
 
-
 Implementation of [**Integrated Clustering and Anomaly Detection (INCAD) for Streaming Data (Revised Version)**](https://arxiv.org/abs/1911.00184): _Guggilam, Sreelekha, et al. "Integrated Clustering and Anomaly Detection (INCAD) for Streaming Data." International Conference on Computational Science. Springer, Cham, 2019._
 
 [**Bayesian Anomaly Detection using EVT**](https://arxiv.org/abs/1905.12150):_Guggilam, Sreelekha, et al. "Bayesian anomaly detection using extreme value theory." arXiv preprint arXiv:1905.12150 (2019)._
